@@ -1,0 +1,109 @@
+2025-04-23 14:20:22,365 [INFO] Requesting data from USGS API: {'format': 'geojson', 'starttime': '2024-01-01', 'endtime': '2024-12-31', 'minmagnitude': 4.5}
+2025-04-23 14:20:25,097 [INFO] Starting data transformation
+2025-04-23 14:20:25,187 [INFO] Transformation complete
+2025-04-23 14:20:25,188 [INFO] Connecting to the PostgreSQL database
+2025-04-23 14:20:25,907 [ERROR] Error while inserting data: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-23 14:24:10,663 [INFO] Requesting data from USGS API: {'format': 'geojson', 'starttime': '2024-01-01', 'endtime': '2024-12-31', 'minmagnitude': 4.5}
+2025-04-23 14:24:13,887 [INFO] Starting data transformation
+2025-04-23 14:24:14,371 [INFO] Transformation complete
+2025-04-23 14:24:14,371 [INFO] Connecting to the PostgreSQL database
+2025-04-23 14:24:14,568 [ERROR] Error while inserting data: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "earthquakes" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-23 18:27:56,601 [INFO] Requesting data from USGS API: {'format': 'geojson', 'starttime': '2024-01-01', 'endtime': '2024-12-31', 'minmagnitude': 4.5}
+2025-04-23 18:27:59,025 [INFO] Starting data transformation
+2025-04-23 18:27:59,038 [INFO] Transformation complete
+2025-04-23 18:27:59,039 [INFO] Connecting to the PostgreSQL database
+2025-04-23 18:27:59,100 [ERROR] Error while inserting data: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-23 18:29:05,631 [INFO] Requesting data from USGS API: {'format': 'geojson', 'starttime': '2024-01-01', 'endtime': '2024-12-31', 'minmagnitude': 4.5}
+2025-04-23 18:29:08,396 [INFO] Starting data transformation
+2025-04-23 18:29:08,407 [INFO] Transformation complete
+2025-04-23 18:29:08,408 [INFO] Connecting to the PostgreSQL database
+2025-04-23 18:29:08,457 [ERROR] Error while inserting data: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-23 18:31:12,824 [INFO] Requesting data from USGS API: {'format': 'geojson', 'starttime': '2024-01-01', 'endtime': '2024-12-31', 'minmagnitude': 4.5}
+2025-04-23 18:31:15,250 [INFO] Starting data transformation
+2025-04-23 18:31:15,271 [INFO] Transformation complete
+2025-04-23 18:31:15,272 [INFO] Connecting to the PostgreSQL database
+2025-04-23 18:31:15,376 [ERROR] Error while inserting data: (psycopg2.OperationalError) connection to server at "db" (172.19.0.2), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-23 18:32:32,682 [INFO] Requesting data from USGS API: {'format': 'geojson', 'starttime': '2024-01-01', 'endtime': '2024-12-31', 'minmagnitude': 4.5}
+2025-04-23 18:32:35,440 [INFO] Starting data transformation
+2025-04-23 18:32:35,453 [INFO] Transformation complete
+2025-04-23 18:32:35,454 [INFO] Connecting to the PostgreSQL database
+2025-04-23 18:32:35,533 [INFO] Inserting data into the database...
+2025-04-23 18:32:35,954 [INFO] Data successfully inserted into the 'earthquakes' table.
+2025-04-23 18:35:59,431 [INFO] Requesting data from USGS API: {'format': 'geojson', 'starttime': '2024-01-01', 'endtime': '2024-12-31', 'minmagnitude': 4.5}
+2025-04-23 18:36:03,051 [INFO] Starting data transformation
+2025-04-23 18:36:03,083 [INFO] Transformation complete
+2025-04-23 18:36:03,083 [INFO] Connecting to the PostgreSQL database
+2025-04-23 18:36:03,279 [INFO] Inserting data into the database...
+2025-04-23 18:36:04,266 [INFO] Data successfully inserted into the 'earthquakes' table.
+2025-04-23 18:50:31,603 [INFO] Requesting data from USGS API: {'format': 'geojson', 'starttime': '2024-01-01', 'endtime': '2024-12-31', 'minmagnitude': 4.5}
+2025-04-23 18:50:34,526 [INFO] Starting data transformation
+2025-04-23 18:50:34,575 [INFO] Transformation complete
+2025-04-23 18:50:34,576 [INFO] Connecting to the PostgreSQL database
+2025-04-23 18:50:34,904 [INFO] Inserting data into the database...
+2025-04-23 18:50:35,931 [INFO] Data successfully inserted into the 'earthquakes' table.
+2025-04-23 18:52:44,119 [INFO] Requesting data from USGS API: {'format': 'geojson', 'starttime': '2024-01-01', 'endtime': '2024-12-31', 'minmagnitude': 4.5}
+2025-04-23 18:52:46,819 [INFO] Starting data transformation
+2025-04-23 18:52:46,830 [INFO] Transformation complete
+2025-04-23 18:52:46,830 [INFO] Connecting to the PostgreSQL database
+2025-04-23 18:52:46,907 [INFO] Inserting data into the database...
+2025-04-23 18:52:47,333 [INFO] Data successfully inserted into the 'earthquakes' table.
+2025-04-23 18:52:47,601 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 18:52:47,618 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 18:57:51,609 [INFO] Requesting data from USGS API: {'format': 'geojson', 'starttime': '2024-01-01', 'endtime': '2024-12-31', 'minmagnitude': 4.5}
+2025-04-23 18:57:54,952 [INFO] Starting data transformation
+2025-04-23 18:57:54,979 [INFO] Transformation complete
+2025-04-23 18:57:54,980 [INFO] Connecting to the PostgreSQL database
+2025-04-23 18:57:55,112 [INFO] Inserting data into the database...
+2025-04-23 18:57:55,607 [INFO] Data successfully inserted into the 'earthquakes' table.
+2025-04-23 18:57:55,608 [ERROR] Error while inserting data: Not an executable object: 'SELECT COUNT(*) FROM earthquakes;'
+2025-04-23 18:59:14,504 [INFO] Requesting data from USGS API: {'format': 'geojson', 'starttime': '2024-01-01', 'endtime': '2024-12-31', 'minmagnitude': 4.5}
+2025-04-23 18:59:17,805 [INFO] Starting data transformation
+2025-04-23 18:59:17,820 [INFO] Transformation complete
+2025-04-23 18:59:17,821 [INFO] Connecting to the PostgreSQL database
+2025-04-23 18:59:17,918 [INFO] Inserting data into the database...
+2025-04-23 18:59:18,361 [INFO] Data successfully inserted into the 'earthquakes' table.
+2025-04-23 18:59:18,365 [INFO] Total rows in 'earthquakes' table: 6385
+2025-04-23 18:59:18,699 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 18:59:18,705 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 19:01:02,231 [INFO] Requesting data from USGS API: {'format': 'geojson', 'starttime': '2024-01-01', 'endtime': '2024-12-31', 'minmagnitude': 4.5}
+2025-04-23 19:01:04,613 [INFO] Starting data transformation
+2025-04-23 19:01:04,624 [INFO] Transformation complete
+2025-04-23 19:01:04,624 [INFO] Connecting to the PostgreSQL database
+2025-04-23 19:01:04,730 [INFO] Inserting data into the database...
+2025-04-23 19:01:05,241 [INFO] Data successfully inserted into the 'earthquakes' table.
+2025-04-23 19:01:05,244 [INFO] Total rows in 'earthquakes' table: 6385
+2025-04-23 19:01:20,866 [INFO] Requesting data from USGS API: {'format': 'geojson', 'starttime': '2024-01-01', 'endtime': '2024-12-31', 'minmagnitude': 4.5}
+2025-04-23 19:01:21,233 [INFO] Starting data transformation
+2025-04-23 19:01:21,244 [INFO] Transformation complete
+2025-04-23 19:01:21,244 [INFO] Connecting to the PostgreSQL database
+2025-04-23 19:01:21,310 [INFO] Inserting data into the database...
+2025-04-23 19:01:21,748 [INFO] Data successfully inserted into the 'earthquakes' table.
+2025-04-23 19:01:21,750 [INFO] Total rows in 'earthquakes' table: 6385
+2025-04-23 19:01:22,039 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 19:01:22,043 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 19:29:53,610 [INFO] Requesting data from USGS API: {'format': 'geojson', 'starttime': '2024-01-01', 'endtime': '2024-12-31', 'minmagnitude': 4.5}
+2025-04-23 19:29:56,930 [INFO] Extracted 6385 earthquake records
+2025-04-23 19:29:56,967 [INFO] Starting data transformation
+2025-04-23 19:29:56,995 [INFO] Transformation complete
+2025-04-23 19:29:56,996 [INFO] Connecting to the PostgreSQL database
+2025-04-23 19:29:57,175 [INFO] Inserting data into the database...
+2025-04-23 19:29:58,429 [INFO] Data successfully inserted into the 'earthquakes' table.
+2025-04-23 19:29:58,434 [INFO] Total rows in 'earthquakes' table: 6385
+2025-04-23 19:29:58,899 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 19:29:58,920 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
